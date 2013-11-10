@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+        <artifactId>scube</artifactId>
+        <groupId>com.scube</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+  <groupId>com.scube</groupId>
+  <artifactId>scube-srvcs</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Scube Enterprise Services</name>
+  <url>http://maven.apache.org</url>
+  <modules>
+    <module>scube-srvcs-ear</module>
+    <module>scube-srvcs-web</module>
+    <module>scube-srvcs-ejb</module>
+  </modules>
+</project>
