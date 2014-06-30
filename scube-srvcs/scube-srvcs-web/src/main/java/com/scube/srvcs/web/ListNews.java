@@ -22,6 +22,7 @@ import com.scube.srvcs.ejb.NewsEntityFacade;
 /**
  *
  * @author nb
+ * Test
  */
 @WebServlet(name = "ListNews", urlPatterns = {"/ListNews"})
 public class ListNews extends HttpServlet {
